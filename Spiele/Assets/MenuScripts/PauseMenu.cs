@@ -40,10 +40,10 @@ public class PauseMenu : MonoBehaviour
         GameIsPaused = false;
     }
 
-    public void LoadMenu()
+    public void StartNewGame()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("");
+       // SceneManager.LoadScene("NewGame");
     }
 
     public void QuitGame()
