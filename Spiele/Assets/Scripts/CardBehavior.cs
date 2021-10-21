@@ -25,10 +25,10 @@ public class CardBehavior : MonoBehaviour
 
     void OnMouseDrag()
     {
-        Vector3 mousePos = Input.mousePosition;
-        Vector3 worldPosition = Camera.main.ScreenToWorldPoint(mousePos);
-        worldPosition.z = gameObject.transform.position.z;
-        gameObject.transform.position = worldPosition;
+//        Vector3 mousePos = Input.mousePosition;
+//        Vector3 worldPosition = Camera.main.ScreenToWorldPoint(mousePos);
+//        worldPosition.z = gameObject.transform.position.z;
+//        gameObject.transform.position = worldPosition;
     }
 
 
