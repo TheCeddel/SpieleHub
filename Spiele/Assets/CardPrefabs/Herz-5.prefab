@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 6010218631092701365}
   - component: {fileID: 1502138740100326173}
   m_Layer: 0
-  m_Name: Herz-6
+  m_Name: Herz-5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bae6e9157ea6d834c951e9e2df40046e, type: 2}
+  - {fileID: 2100000, guid: 1b28906e610ab614e8153e1a58b025e3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -158,9 +158,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fa442b75e36a1445bce2935be345c6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Wert: 1
-  Farbe: 0
-  Rolle: 4
+  Value: -1
+  Suit: 0
+  Role: 0
 --- !u!114 &1502138740100326173
 MonoBehaviour:
   m_ObjectHideFlags: 0

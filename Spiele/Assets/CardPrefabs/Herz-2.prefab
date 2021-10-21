@@ -13,11 +13,9 @@ GameObject:
   - component: {fileID: 828865955710712121}
   - component: {fileID: 5249342609821955938}
   - component: {fileID: 2488980907515190771}
-  - component: {fileID: 8567863517066110614}
   - component: {fileID: 6010218631092701365}
-  - component: {fileID: 1502138740100326173}
   m_Layer: 0
-  m_Name: Herz-5
+  m_Name: Herz-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1b28906e610ab614e8153e1a58b025e3, type: 2}
+  - {fileID: 2100000, guid: 59b891af671bb7b4dbfacb7f76bcd8eb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -127,25 +125,6 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
---- !u!114 &8567863517066110614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5133473490545067523}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
 --- !u!114 &6010218631092701365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,18 +137,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fa442b75e36a1445bce2935be345c6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Wert: 1
-  Farbe: 0
-  Rolle: 4
---- !u!114 &1502138740100326173
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5133473490545067523}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1511ccae7919cfc46b603b9b337fdc94, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  Value: -1
+  Suit: 0
+  Role: 0
