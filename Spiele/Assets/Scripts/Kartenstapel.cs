@@ -5,7 +5,7 @@ using UnityEngine;
 public class Kartenstapel : MonoBehaviour
 {
     public GameObject kartenbasis;
-    public List<GameObject> Kartenstapel;
+    public List<GameObject> kartenstapel;
     public Vector3 Stapelposition;
 
     // Start is called before the first frame update
