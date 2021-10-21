@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class CardBehavior : MonoBehaviour
 {
-    public int Wert = -1;
-    public Kartenfarben Farbe;
-    public Kartenrolle Rolle;
+    public int Value = -1;
+    public CardSuits Suit;
+    public CardRoles Role;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,14 +21,18 @@ public class CardBehavior : MonoBehaviour
 
     void OnMouseOver()
     {
-     
+        
     }
 
     void OnMouseDrag()
     {
+        // get current mouse position
         Vector3 mousePos = Input.mousePosition;
+        // apply mouse position to world position
         Vector3 worldPosition = Camera.main.ScreenToWorldPoint(mousePos);
+        // change z accordingly
         worldPosition.z = gameObject.transform.position.z;
+        // apply new position to gameObject
         gameObject.transform.position = worldPosition;
     }
 
